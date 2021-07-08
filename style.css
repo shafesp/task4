@@ -1,0 +1,87 @@
+body{
+    background-color: antiquewhite;
+    margin: 20px 50px 0 50px;
+}
+
+div{
+    margin: 20px 0;
+}
+
+h4{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+select{
+    padding: 4px;
+    margin: 0 3px;
+}
+
+#country-prefix{
+    width: 50px;
+    text-align: center;
+}
+
+#address{
+    height: 80px;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #d96e34;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #fc7f3c;
+    text-decoration: none;
+  }
+
+  .address{
+      
+  }
+
+  .gender{
+    margin-right: 137px;
+    margin-bottom: 0;
+  }
+
+  #female{
+    margin-left: 223px;
+  }
+
+  #others{
+    margin-left: 223px;
+  }
+
+  .preferred{
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+
+  #newspaper{
+    margin-left: 376px;
+  }
+  #social{
+    margin-left: 376px;
+  }
+  #employee{
+    margin-left: 376px;
+  }
+
+  .job{
+      color: chocolate;
+  }
+
+  h2{
+    margin: 53px 0;
+  }
+
+  .resume{
+    margin: 64px 0;
+  }

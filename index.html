@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Task 4</title>
+</head>
+
+<body>
+    <img style="width: 100%;" src="image1.jpg" alt="">
+    <div class="form">
+        <form action="get">
+            <div class="name-container">
+                <h4 style="margin-right: 155px;">Name</h4>
+                <input type="text" id="fname" name="fname" placeholder="First Name">
+                <input type="text" id="lname" name="lname" placeholder="Last Name">
+            </div>
+            <div class="bdate-container">
+                <h4 style="margin-right: 102px;">Birth Date</h4>
+                <select class="days" name="date_of_birth:day" tabindex="7">
+                    <option value="DD"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <select class="month" name="date_of_birth:mon" tabindex="8">
+                    <option value="MM"></option>
+                    <option value="Jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                    <option value="Apr">Apr</option>
+                    <option value="May">May</option>
+                    <option value="Jun">Jun</option>
+                    <option value="Jul">Jul</option>
+                    <option value="Aug">Aug</option>
+                    <option value="Sep">Sep</option>
+                    <option value="Oct">Oct</option>
+                    <option value="Nov">Nov</option>
+                    <option value="Dec">Dec</option>
+                </select>
+                <select class="year" name="date_of_birth:year" tabindex="9">
+                    <option value="YYYY"></option>
+                    <option value="1980">1980</option>
+                    <option value="1981">1981</option>
+                    <option value="1982">1982</option>
+                    <option value="1983">1983</option>
+                    <option value="1984">1984</option>
+                    <option value="1985">1985</option>
+                    <option value="1986">1986</option>
+                    <option value="1987">1987</option>
+                    <option value="1988">1988</option>
+                    <option value="1989">1989</option>
+                    <option value="1990">1990</option>
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                    <option value="1993">1993</option>
+                    <option value="1994">1994</option>
+                    <option value="1995">1995</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                </select>
+            </div>
+            <div class="phoneno">
+                <h4 style="margin-right: 105px;">Phone No.</h4>
+                <input id="country-prefix" type="text" value="+91">
+                <input id="phoneno" type="text" placeholder="10 Digit Phone Number">
+            </div>
+            <div class="email">
+                <h4 style="margin-right: 57px;">E-mail Address</h4>
+                <input type="email" name="email" id="email" placeholder="abc@example.com">
+            </div>
+            <div class="address d-flex">
+                <h4 style="margin-right: 130px;">Address</h4>
+                <textarea name="address" id="address" cols="30" rows="4"></textarea>
+            </div>
+            <div class="gender-con">
+                <h4 class="gender">Gender</h4>
+                <input type="radio" id="male" name="fav_language" value="Male">
+                <label for="Male">Male</label><br>
+                <input type="radio" id="female" name="fav_language" value="Female">
+                <label for="Female">Female</label><br>
+                <input type="radio" id="others" name="fav_language" value="Others">
+                <label for="Others">Others</label>
+            </div>
+            <div class="preferred-con">
+                <h4 class="preferred">How were you preferred to us?</h4>
+                <input type="checkbox" id="walk" name="Walk" value="Walk">
+                <label for="Walk"> Walk In</label><br>
+                <input type="checkbox" id="newspaper" name="Newspaper" value="Newspaper">
+                <label for="Newspaper"> Newspaper Ad</label><br>
+                <input type="checkbox" id="social" name="Social" value="Social">
+                <label for="Social"> Social Media</label><br>
+                <input type="checkbox" id="employee" name="Employee" value="Employee">
+                <label for="Employee"> Employee</label>
+            </div>
+            <div class="position">
+                <h4 style="margin-right: 34px;">Position Applied</h4>
+                <select name="Position" id="position">
+                    <option value="hardware">Hardware Technician</option>
+                    <option value="network">Network Administrator</option>
+                    <option value="business">Business Analyst</option>
+                    <option value="manager">IT Project Manager</option>
+                    <option value="developer">Web Developer</option>
+                  </select>
+            </div>
+            <h2 class="job">Job Skills & Training</h2>
+            <div class="d-flex skills">
+                <h4 style="margin-right: 139px;">Describe your skills</h4>
+                <textarea name="skills" id="skill-txt" cols="50" rows="10"></textarea>
+            </div>
+            <div class="d-flex train">
+                <h4 style="margin-right: 84px;">Training & Certifications</h4>
+                <textarea name="certificate" id="training" cols="50" rows="10"></textarea>
+            </div>
+            <div class="resume">
+                <h4 style="margin-right: 125px;">Upload your resume</h4>
+                <input type="file" name="resume" id="resume">
+            </div>
+            <div class="button text-center">
+                <button type="submit" class="btn text-center">submit</button>
+            </div>
+            
+        </form>
+    </div>
+   
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
